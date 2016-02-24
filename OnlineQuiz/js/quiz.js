@@ -18,7 +18,7 @@
             
             var questionState = $scope.myQuestions[qIndex].questionState;
 
-            if (questionState != 'answered') {
+            if (questionState !== "answered") {
                 $scope.myQuestions[qIndex].selectedAnswer = aIndex;
                 var correctAnswer = $scope.myQuestions[qIndex].correct;
                 $scope.myQuestions[qIndex].correctAnswer = correctAnswer;
